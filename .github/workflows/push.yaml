@@ -37,7 +37,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: <Docker ID>/go-sprint-twelve
+          images: mobiquai1/go-sprint-twelve
 
       - name: Build and push Docker Inage
         uses: docker/build-push-action@v5
